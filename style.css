@@ -4,7 +4,6 @@ body{
     padding-left:5%;
     padding-right: 5%;
     border: 0%;
-
     color: #696969;
     }
 
@@ -14,7 +13,120 @@ h1{
     font: weight 900px;;
     }
 
-section{
+.h1-text-color-orang {
+    color: orange;
+    }
+
+.link-button{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+    padding: 20px 60px;
+    border-radius: 30px;
+    background-image: linear-gradient( orange, tomato);
+    box-shadow: 10px 10px 35px rgb(231, 132, 18);
+    position: relative;
+    top: 40px;
+    }
+
+.full-width{
+    width: 100%;
+    display: flex;
+    }
+
+.half-width{
+    width: 50%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+#position-text-1st-section{
+    position: relative;
+    left: 50px;
+    top : 100px;  
+}
+
+#position-img-1st-section{
+    position: relative;
+    right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.display-flex{
     display: flex;
     }
 
@@ -66,17 +178,17 @@ section{
     font-size: 20px;
 }
 
+.position-fixed{
+    position: relative;
+}
 
 
-
-
-
-
-
-
-
-
-
+.section-2nd-img-part{
+    position: absolute;
+    top: 1300px;
+}
+*/
+------------------------------------
 
 
 
