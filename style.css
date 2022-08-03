@@ -1,10 +1,8 @@
 body{
     font-family: 'Inter', sans-serif;
-    margin-left: 0%;
-    padding-left:5%;
-    padding-right: 5%;
-    border: 0%;
     color: #696969;
+    margin: 0%;
+    padding: 0%;;
     }
 
 h1{
@@ -13,11 +11,22 @@ h1{
     font-weight:900;
     }
 
+h2{
+    font-size: 60px;
+    color: #575757;
+    font-weight:900;
+    } 
+p{
+    font-size: 25px;
+    color: #575757;
+    font-weight:400;
+}
+
 .h1-text-color-orang {
     color: orange;
     }
 
-.link-button{
+.link-button-1st-section{
     text-decoration: none;
     font-size: 20px;
     color: white;
@@ -30,9 +39,25 @@ h1{
     top: 40px;
     }
 
+.link-button-2st-section{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+    padding: 20px 60px;
+    border-radius: 30px;
+    background-image: linear-gradient( orange, tomato);
+    box-shadow: 10px 10px 35px rgb(231, 132, 18);
+    position: relative;
+    top: 120px;
+    }
+    
+
+
 .full-width{
     width: 100%;
     display: flex;
+    padding-bottom: 120px;
     }
 
 .half-width{
@@ -45,13 +70,56 @@ h1{
 
 #position-text-1st-section{
     position: relative;
-    left: 50px;
-    top : 100px;  
+    left: 100px;
+    top : 140px;  
 }
 
 #position-img-1st-section{
     position: relative;
-    right: 50px;
+    right: 100px;
 }
+
+
+#position-img-2nd-section{
+    position: relative;
+    top: 80px;
+    left: 300px;
+    width: 450px;
+
+}
+
+#position-text-2nd-section{
+    position: relative;
+    top : 125px;
+    left: 600px;
+    width: 40%;
+    
+}
+
+#second-sectoin-background-image{
+    background-image: url(image/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
