@@ -123,7 +123,7 @@ p{
 .food-half-width{
     width: 45%;
     border-radius: 50px;
-    box-shadow: 3px 15px 25px gray;
+    box-shadow: 1px 5px 30px 1px  gray;
 }
 
 .food-recipy-01{
@@ -164,12 +164,41 @@ p{
     color: black;
 }
 
+.social-media-section{
+    display: flex;
+    width: 82%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 6%;
+    border-radius: 35px;
+    box-shadow: 1px 5px 30px 1px  gray;
+}
+
+.quater_width{
+    width: 33.3333%;
+    text-align: center;
+}
 
 
 
+.full-width-footer-section{
+    width: 100%;
+}
 
+.half-footer-section{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
+.footer-section{
+    height: 200px;
+    background-color: #0f101c;
+}
 
+.footer-text-color{
+    color: aliceblue;
+}
 
 
 
